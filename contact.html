@@ -22,14 +22,23 @@
             </nav>
         </header>
 
-        <div class="content-wrap-title">
-        <p class="recruiter-message">
-            Please feel free to reach out for any inquires or questions you may have. 
-            I'd love to hear from you if you are a recruiter or industry professional. 
-        </p>
+        <div class="bottom-half">
+            <p class="recruiter-message">
+                Please feel free to reach out for any inquires or questions you may have. 
+                I'd love to hear from you if you are a recruiter or industry professional. 
+            </p>
+            <form  a class="contact-form" method="POST" action="mail.php" form>
+                <label for="name">Full Name</label>
+                <input name="fullname" type="name" required> </input>
 
-
-    </div>
+                <label for="email">Email</label>
+                <input name="emailAddress" type="email" required> </input>
+                <label for="textarea">Message</label>
+                
+                <textarea id ="textarea" name="textarea" cols="30" rows="15" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </body>
 
 
