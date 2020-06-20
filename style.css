@@ -219,4 +219,38 @@ img {
     position: relative;
     text-align: center;
     padding-bottom: 10em;
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+
+}
+
+.interest-section, .projects {
+    display: flex;
+}
+
+.title {
+   padding-top: 25px;
+   padding-bottom: 10px;
+   text-align: center;
+}
+.summary {
+    padding-bottom: 10px;
+}
+
+.projects {
+    padding-top: 25px;
+}
+
+#sum1 {
+    text-align: center;
+    align-content: center;
+}
+.block {
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2 {
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
 }
