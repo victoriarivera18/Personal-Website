@@ -1,6 +1,6 @@
 <?php
-    $name = $_POST['fullname'];
-    $visitor_email = $_POST['emailaddress'];
+    $name = $_POST['name'];
+    $visitor_email = $_POST['email'];
     $message = $_POST['textarea'];
 
 
@@ -14,6 +14,7 @@
 
         $to = "victoriaeugenia2018@gmail.com";
         mail($to, $email_subject, $email_body);
-        echo "Email sent!";
+        header('Location: contact-form-thankyou.html');
+        
     }
 ?>
