@@ -9,6 +9,7 @@
     font-family:  'Open Sans', sans-serif;
     
 }
+
 html, body{
     height: 100%;
 }
@@ -24,6 +25,30 @@ h1 a, h1, li a{
     font-family: 'Rock Salt', cursive;
     font-weight: bold;
 
+}
+h3 {
+    padding-top: 10px;
+    text-decoration: underline;
+
+}
+article{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-evenly;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.course {
+    width: 30rem;
+}
+
+ul {
+    list-style: none
+}
+
+ul li{
+    color:  #457B9D;  
 }
 
 header {
@@ -116,6 +141,7 @@ button:hover {
 }
 
 .name-title {
+    text-decoration: none;
     position: relative;
     font-family: 'Rock Salt', cursive;
     font-size: 85px;
@@ -257,11 +283,12 @@ h2 {
     font-family: 'Rock Salt', cursive;
     font-weight: bold;
 }
+
 .desc {
     padding-bottom: 30px;
 }
 
-
-.course-list {
-    background-color: #E63946;
+.acaPic{
+    padding-top: 25px;
+    width: 40%;    
 }
