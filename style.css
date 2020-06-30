@@ -45,7 +45,7 @@ header {
     
 }
 
-.navbar li {
+.navbar li{
     display: inline-block;
     padding: 10px 35px;
     background-color: #457B9D;
@@ -259,4 +259,9 @@ h2 {
 }
 .desc {
     padding-bottom: 30px;
+}
+
+
+.course-list {
+    background-color: #E63946;
 }
